@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Movie Recommender</title>
+    </head>
+    <body>
+        <h3>
+            <ul>
+                <%= data[0] %> 
+                <% for (var i = 2; i < data.length-2; i++) { %>
+                <li>
+                    <%= data[i] %>
+                    <% i++%>
+                    <% i++%>
+                    <% i++%>
+                </li>
+                <% } %>
+            </ul>
+        </h3>
+    </body>
+</html>
